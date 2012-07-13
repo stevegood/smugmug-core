@@ -2,7 +2,7 @@ class SmugmugCoreGrailsPlugin {
     // the plugin version
     def version = "0.1"
     // the version or versions of Grails the plugin is designed for
-    def grailsVersion = "2.0 > *"
+    def grailsVersion = "2.1.0 > *"
     // the other plugins this plugin depends on
     def dependsOn = [:]
     // resources that are excluded from plugin packaging
@@ -12,10 +12,10 @@ class SmugmugCoreGrailsPlugin {
 
     // TODO Fill in these fields
     def title = "Smugmug Core Plugin" // Headline display name of the plugin
-    def author = "Your name"
-    def authorEmail = ""
+    def author = "Steve Good"
+    def authorEmail = "steve@stevegood.org"
     def description = '''\
-Brief summary/description of the plugin.
+Provides a complete wrapper for the SumgMug 1.3.0 API.
 '''
 
     // URL to the plugin's documentation
